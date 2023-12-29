@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Messina Sans';
+    src: local('Messina Sans Regular'), local('Messina-Sans-Regular'),
+        url('/assets/font/MessinaSans-Regular.woff2') format('woff2'),
+        url('/assets/font/MessinaSans-Regular.woff') format('woff'),
+        url('/assets/font/MessinaSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+/* Header Part { */
+.head-ctn{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 418px;
+    margin-top: 2%;
+}
+.logo-ctn{
+    position: relative;
+    left: 9%;
+    z-index: 1;
+}
+.logo-img{
+    width: 164px;
+}
+.nav-ctn{
+    width: 60%;
+    display: flex;
+    z-index: 1;
+}
+.nav-list{
+    display: flex;
+    gap: 48px;
+}
+a{
+    display: grid;
+    color: #ffff;
+    font-family: 'Messina Sans';
+    text-decoration: none;
+    &:hover{text-decoration: underline;}
+}
+.nav-item{list-style: none;}
+.menu-btn{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    border: none;
+    gap: 4px;
+    background: none;
+    left: 98px;
+}
+.line1,.line2,.line3{
+    height: 2px;
+    background-color: #ffff;
+}
+.line1{width: 21.55px;}
+.line2{width: 16px;}
+.line3{width: 12px;}
+/* } */
+/* Gallery Page { */
+.outter-ctn {
+    display: flex;
+    flex-direction: column;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 33.34% 33.34% 33.34%;
+    z-index: 1;
+}
+img{
+    width: 100%;
+}
+.desc {
+    padding: 52px 26px;
+    text-align: center;
+    background-color: #161515;
+    color: #ffff;
+    font-family: "GT Sectra Display Light";
+    font-size: 22px;
+    font-weight: normal;
+}
+.gallery-head{
+    display: flex;
+    height: 50vh;
+    z-index: 0;
+}
+.gallery-title{
+    width: auto;
+    height: fit-content;
+    margin-top: 12vh;
+    color: #ffff;
+    font-family: "GT Sectra Display Light";
+    font-size: 67.5px;
+    font-weight: 200;
+    position: relative;
+    left: 12%;
+    z-index: 1;
+}
+.gallery-bgimg{
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+/* } */
+/* Footer Part { */
+.footer-outer{
+    background-color: #161f1e;
+    position: relative;
+    right: 0;
+}
+.footer-inner{
+    display: flex;
+    padding: 120px 130px;
+    justify-content: space-between;
+}
+.footer-img{
+    width: 50px;
+}
+.footer-nav a{
+    height: 30px;
+}
+.footer-contact p,.footer-cc p{
+    height: 30px;
+    color: #ffffffbf;
+    font-family: "Messina Sans";
+    font-size: 13px;
+}
+.footer-contact a{
+    height: 30px;
+    text-decoration: underline;
+}
+.foot-nav-ctn{
+    display: flex;
+}
+.footer-nav{
+    margin-bottom: 16px;
+    margin-left: 80px;
+    width: 50%;
+}
+.footer-content{
+    display: flex;
+}
+.footer-contact{
+    margin-right: 100px;
+}
+.footer-cc{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 130px 56px;
+}
+/* } */
+@media screen and (max-width: 550px) {
+    .head-ctn{
+        gap: 30px;
+    }
+    .logo-img{
+        width: 135px;
+    }
+    .gallery{
+        grid-template-columns: auto;
+    }
+    .gallery-head{
+        height: 30vh;
+    }
+    .gallery-title{
+        font-size: 36px;
+        left: 9%;
+    }
+    .gallery-bgimg{
+        height: 65vh;
+    }
+    .gallery-item img{
+        width: 100%;
+    }
+    .footer-content,.footer-inner{
+        flex-direction: column;
+    }
+    .footer-nav{
+        margin-bottom: 16px;
+        margin-top: 48px;
+        width: 50%;
+    }
+    .nav-list{
+        display: none;
+    }
+}
