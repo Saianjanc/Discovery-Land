@@ -179,6 +179,7 @@ img{
     }
     .gallery-title{
         font-size: 36px;
+        margin-top: 0;
         left: 9%;
     }
     .gallery-bgimg{
@@ -187,15 +188,27 @@ img{
     .gallery-item img{
         width: 100%;
     }
-    .footer-content,.footer-inner{
+    .footer-content{
         flex-direction: column;
+    }
+    .footer-inner{
+        flex-direction: column;
+        padding: 63px 25.6px;
     }
     .footer-nav{
         margin-bottom: 16px;
         margin-top: 48px;
+        margin-left: 0;
         width: 50%;
     }
     .nav-list{
         display: none;
+    }
+    .footer-cc{
+        flex-direction: column;
+        padding: 0px 25.6px;
+    }
+    .footer-cc p,.footer-cc a{
+        font-size: 10.5px;
     }
 }
