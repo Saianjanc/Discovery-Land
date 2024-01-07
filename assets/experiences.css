@@ -80,7 +80,7 @@ a{
 .line3{width: 12px;}
 /* } */
 
-/* Footer Part { */
+/* Footer Part  { */
     .footer-outer{
         background-color: #161f1e;
         position: relative;
@@ -130,7 +130,6 @@ a{
         padding: 0px 130px 56px;
     }
 /* } */
-    /* } */
 
 /* experiences page part  { */
     .body-head-ctn{
@@ -164,7 +163,6 @@ a{
         z-index: 1;
     }
     .main-ctn{
-        margin-top: 630px;
         width: 100%;
         position: relative;
         background-color: #ffff;
@@ -237,15 +235,24 @@ a{
     .third-para{
         position: relative;
         background-color: #f3f3f3;
-        padding: 129.537px 138.24px 172.761px;
+        padding: 129.537px 138.24px 450px;
     }
     .third-row{
         position: relative;
         background-color: #ffff;
         width: 542px;
         height: 520.51px;
-        top: -28px;
+        top: 130px;
         left: 698px;
+        z-index: 1;
+    }
+    .third-row2{
+        position: relative;
+        background-color: #ffff;
+        width: 542px;
+        height: 520.51px;
+        top: 605px;
+        left: 0;
         z-index: 1;
     }
     .third-row1-txt{
@@ -256,7 +263,7 @@ a{
         padding-left: 88px;
         padding-top: 132px;
     }
-    .third-row pre{
+    .third-row pre,.third-row2 pre{
         margin-top: 35px;
         font-size: 15.55px;
         font-family: "Messina Sans";
@@ -298,6 +305,64 @@ a{
         border: white solid 1px;
         border-radius: 100%;
     }
+    .btntop{
+        opacity: 1;
+        transform: translateY(20px);
+        transition: transform 0.5s,opacity 0.6s;
+        color: #111;
+    }
+    .btnbtm{
+        opacity: 0;
+        transform: translateY(0);
+        transition: transform 0.5s,opacity 0.6s;
+        color: #111;
+    }
+    .btndiv{
+        width: 170px;
+        height: 64.76px;
+        background-color: #00000000;
+        text-align: center;
+        border: gray solid 1px;
+        &:hover{
+            .bt,.bb{
+                opacity: 1;
+                width: 170px;
+            }
+            .bl,.br{
+                opacity: 1;
+                height: 64.76px;
+            }
+            .btnbtm{
+                opacity: 1;
+                transform: translateY(-14px);
+            }
+            .btntop{
+                transform: translateY(-5px);
+                opacity: 0;
+            }
+        }
+    }
+    .borderdiv{
+        position: absolute;
+        height: 64.76px;
+        width: 170px;
+    }
+    .bt,.bb{
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        transition: width 0.5s;
+    }
+    .br,.bl{
+        position: absolute;
+        opacity: 0;
+        height: 0;
+        transition: height 0.5s;
+    }
+    .bt{border-top: black solid 1.5px;}
+    .bb{height: 63px; border-bottom: black solid 1.5px; transition-delay: 0.3s;}
+    .br{width: 170px; border-right: black solid 1.5px; transition-delay: 0.3s;}
+    .bl{border-left: black solid 1.5px;}
 /* } */
     @media screen and (max-width: 550px) {
         .head-ctn{
