@@ -22,13 +22,13 @@ body {
     height: 80px;
     display: flex;
     align-items: center;
-    gap: 418px;
     margin-top: 2%;
 }
 
 .logo-ctn {
     position: relative;
-    left: 9%;
+    left: 123px;
+    top: 4px;
     z-index: 1;
 }
 
@@ -37,14 +37,15 @@ body {
 }
 
 .nav-ctn {
-    width: 60%;
     display: flex;
+    position: relative;
+    left: 411px;
     z-index: 1;
 }
 
 .nav-list {
     display: flex;
-    gap: 48px;
+    gap: 52px;
 }
 
 a {
@@ -182,7 +183,12 @@ h1 {
     .head-ctn {
         gap: 30px;
     }
-
+    .nav-ctn{
+        left: 0;
+    }
+    .logo-ctn{
+        left: 20px;
+    }
     .logo-img {
         width: 135px;
     }
