@@ -24,7 +24,7 @@ body{
     background-color: black;
 }
 
-/* Header Part { */
+/* Header Part  { */
 .head-ctn{
     height: 80px;
     display: flex;
@@ -414,3 +414,4 @@ a{
             width: 40px;
         }
     }
+/* } */

@@ -77,8 +77,8 @@ a{
 .line2{width: 16px;}
 .line3{width: 12px;}
     /* } */
-
-/* Campany Page { */
+    
+/* Press Page { */
 .body-head-ctn{
     position: relative;
     height: 660px;
@@ -118,256 +118,6 @@ a{
     font-family: "Messina Sans";
     z-index: 1;
 }
-.main-ctn{
-    width: 100%;
-    position: relative;
-    background-color: #ffff;
-    z-index: 1;
-}
-.first-para{
-    padding: 129.537px 138.24px;
-    font-size: 38.7px;
-    font-family: "GT Sectra Display Light";
-    text-align: center;
-}
-.second-para{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 140px 130px 184.5px;
-}
-.second-para .para-txt{
-    width: 46%;
-    color: #777777;
-    margin-top: 122px;
-    letter-spacing: 1px;
-}
-.second-para pre{
-    font-size: 14px;
-    font-family: "Messina Sans";
-    line-height: 2;
-    padding-bottom: 36px;
-}
-.para-title{
-    font-family: Gotham;
-    font-size: 26px;
-    color: black;
-    font-weight: 600;
-    padding-bottom: 36px;
-    line-height: 1.3;
-}
-.second-para img{
-    height: 855px;
-    width: 598px;
-    object-fit: cover;
-}
-.bodyImg2{
-    height: 900px;
-    width: 100%;
-    object-fit: cover;
-    overflow: visible;
-}
-.third-para{
-    height: 2300px;
-    background-color: #181f1e;
-    color: #ffff;
-}
-.third-row1{
-    padding: 172.716px 138.24px 173px 184.3px;
-}
-.third-row1 p{
-    font-size: 17.3px;
-    font-family: "Messina Sans";
-    margin-bottom: 34.55px;
-}
-.third-row1 pre{
-    font-size: 38px;
-    font-family: "GT Sectra Display Light";
-    line-height: 1.4;
-}
-.third-row2{
-    padding: 0px 138.24px 173px 184.3px;
-    display: flex;
-}
-.third-row2 img{
-    width: 475px;
-    height: 652.8px;
-    object-fit: cover;
-}
-.third-row2-txt{
-    width: 405px;
-    margin: 129.537px 0px 129.537px 138.24px;
-}
-.third-row2 p{
-    margin-bottom: 34.55px;
-}
-.third-row2 pre{
-    font-family: 'Messina Sans';
-    font-size: 15.55px;
-    color: #777777;
-    line-height: 2;
-}
-.third-row3{
-    padding: 0px 138.24px 173px 184.3px;
-}
-.third-row3-ctn{
-    display: flex;
-    gap: 138px;
-}
-.third-row3-txt{
-    width: 680px;
-    font-family: Gotham;
-    font-size: 22px;
-    font-weight: 100;
-    line-height: 1;
-}
-.third-row3-txt p{
-    color: #777777;
-    font-family: "Messina Sans";
-    font-size: 15.55px;
-    margin-top: 20px;
-    line-height: 2;
-    letter-spacing: 0px;
-}
-#carouselrow3 img{
-    width: 380px;
-    height: 250px;
-    object-fit: cover;
-}
-.row3-txt{
-    display: flex;
-}
-.fourth-para{
-    position: relative;
-    background-color: #f3f3f3;
-    padding: 129.537px 138.24px 172.761px;
-}
-.fourth-row{
-    position: relative;
-    background-color: #ffff;
-    width: 1242.72px;
-    height: 607.51px;
-    top: 67px;
-    z-index: 0;
-}
-.fourth-row1-txt{
-    padding-left: 690px;
-    padding-top: 150px;
-}
-.fourth-row2-txt{
-    padding-left: 88px;
-    padding-top: 132px;
-}
-.fourth-row pre{
-    margin-top: 35px;
-    font-size: 15.55px;
-    font-family: "Messina Sans";
-    color: #777777;
-    line-height: 2;
-}
-.fifth-para{
-    height: 865.38px;
-    background-color: #f3f3f3;
-}
-#carouselrow4 img{
-    width: 397px;
-    height: 500px;
-    object-fit: cover;
-    margin-right: 23px;
-}
-#carouselrow4 p{
-    font-family: 'Messina Sans';
-    font-size: 15.12px;
-}
-#carouselrow4 .carousel-inner .carousel-item.active,
-	.carousel-inner .carousel-item-next,
-	.carousel-inner .carousel-item-prev {
-		display: flex;
-        transform: translateX(-18%);
-}
-.row-footer{
-    position: relative;
-}
-.row-footer h2{
-    position: absolute;
-    top: 30%;
-    left: 600px;
-    font-family: Gotham;
-    font-size: 47px;
-    color: #ffff;
-}
-.row-footer img{
-    width: 100%;
-    height: 514px;
-    object-fit: cover;
-}
-.footerbutton{
-    width: 169.91px;
-    height: 64.76px;
-    position: absolute;
-    top: 50%;
-    left: 665px;
-    background-color: #00000000;
-    color: #ffff;
-    border: white solid 1px;
-}
-.btntop{
-    opacity: 1;
-    transform: translateY(20px);
-    transition: transform 0.5s,opacity 0.6s;
-    color: white;
-}
-.btnbtm{
-    opacity: 0;
-    transform: translateY(0);
-    transition: transform 0.5s,opacity 0.6s;
-    color: white;
-}
-.btndiv{
-    width: 170px;
-    height: 64.76px;
-    background-color: #00000000;
-    text-align: center;
-    &:hover{
-        .bt,.bb{
-            opacity: 1;
-            width: 170px;
-        }
-        .bl,.br{
-            opacity: 1;
-            height: 64.76px;
-        }
-        .btnbtm{
-            opacity: 1;
-            transform: translateY(-14px);
-        }
-        .btntop{
-            transform: translateY(-5px);
-            opacity: 0;
-        }
-    }
-    &:hover{text-decoration: none!important;}
-}
-.borderdiv{
-    position: absolute;
-    height: 64.76px;
-    width: 170px;
-}
-.bt,.bb{
-    position: absolute;
-    opacity: 0;
-    width: 0;
-    transition: width 0.5s;
-}
-.br,.bl{
-    position: absolute;
-    opacity: 0;
-    height: 0;
-    transition: height 0.5s;
-}
-.bt{border-top: white solid 1.5px;}
-.bb{height: 63px; border-bottom: white solid 1.5px; transition-delay: 0.3s;}
-.br{width: 170px; border-right: white solid 1.5px; transition-delay: 0.3s;}
-.bl{border-left: white solid 1.5px;}
 .scrollimg{
     position: absolute;
     width: 86.35px;
@@ -403,6 +153,134 @@ a{
     border: white solid 1px;
     border-radius: 100%;
 }
+.main-ctn{
+    width: 100%;
+    position: relative;
+    background-color: #ffff;
+    z-index: 1;
+}
+.first-para{
+    background-color: #f3f3f3;
+}
+.para-title{
+    padding: 70px 138.24px;
+    font-size: 38.7px;
+    font-family: "GT Sectra Display Light";
+}
+.first-txt{
+    width: 550px;
+    height: 655px;
+    position: relative;
+    background-color: #ffff;
+    top: 42px;
+    left: 900px;
+    z-index: 1;
+    padding: 70px;
+}
+.first-para img{
+    width: 968px;
+    height: 760px;
+    margin-left: 42px;
+    position: absolute;
+    z-index: 0;
+}
+.btndiv{
+    width: 200px;
+    height: 64.76px;
+    background-color: #00000000;
+    text-align: center;
+    border: gray solid 1px;
+    &:hover{
+        .bt,.bb{
+            opacity: 1;
+            width: 200px;
+        }
+        .bl,.br{
+            opacity: 1;
+            height: 64.76px;
+        }
+        .btnbtm{
+            opacity: 1;
+            transform: translateY(-14px);
+        }
+        .btntop{
+            transform: translateY(-5px);
+            opacity: 0;
+        }
+    }
+}
+.borderdiv{
+    position: absolute;
+    height: 64.76px;
+    width: 200px;
+}
+.bt,.bb{
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    transition: width 0.5s;
+}
+.br,.bl{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    transition: height 0.5s;
+}
+.bt{border-top: black solid 1.5px;}
+.bb{height: 63px; border-bottom: black solid 1.5px; transition-delay: 0.3s;}
+.br{width: 200px; border-right: black solid 1.5px; transition-delay: 0.3s;}
+.bl{border-left: black solid 1.5px;}
+.btntop{
+    opacity: 1;
+    transform: translateY(20px);
+    transition: transform 0.5s,opacity 0.6s;
+    color: #111;
+}
+.btnbtm{
+    opacity: 0;
+    transform: translateY(0);
+    transition: transform 0.5s,opacity 0.6s;
+    color: #111;
+}
+.second-para{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 140px 130px 184.5px;
+}
+.second-para .para-txt{
+    width: 46%;
+    color: #777777;
+    margin-top: 122px;
+    letter-spacing: 1px;
+}
+.second-para pre{
+    font-size: 14px;
+    font-family: "Messina Sans";
+    line-height: 2;
+    padding-bottom: 36px;
+}
+.second-para img{
+    height: 855px;
+    width: 598px;
+    object-fit: cover;
+}
+#carouselrow4 img{
+    width: 397px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 23px;
+}
+#carouselrow4 p{
+    font-family: 'Messina Sans';
+    font-size: 15.12px;
+}
+#carouselrow4 .carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+        transform: translateX(-18%);
+}
+
 /* } */
 
 /* Footer Part { */
